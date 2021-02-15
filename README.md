@@ -1,7 +1,7 @@
 # API made with GraphQL and Apollo
 
-This is a test API with mock data which is hardcoded. This project was made through
-Apollo.
+This is a test API with mock data which is hardcoded. The project was made using
+Apollo. Read more about apollo [here](https://studio.apollographql.com/)
 
 Apollo's lift-off course companion app
 [Live Demo App](https://lift-off-client-demo.netlify.app/)
