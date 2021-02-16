@@ -1,11 +1,15 @@
-# Catstronauts
+# API made with GraphQL and Apollo
 
-Apollo's lift-off course companion app (completed)
+This is a test API with a client under construction using mock data which is hardcoded. The project was made using
+Apollo. Read more about Apollo [here](https://studio.apollographql.com/).
+
+Apollo's lift-off course companion app
 [Live Demo App](https://lift-off-client-demo.netlify.app/)
 
 ## Run the project
 
-Castronauts fullstack app holds two main folders `server` and `client`
+This fullstack app holds two main folders `server` and `client` whichs serves as the backend and the
+frontent, respectively.
 
 ### server
 
