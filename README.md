@@ -1,4 +1,4 @@
-# API made with GraphQL and Apollo
+# Fullstack app made with GraphQL and Apollo
 
 This is a test API with a client under construction using static mock data. The project was made using
 Apollo. Read more about Apollo [here](https://studio.apollographql.com/).
