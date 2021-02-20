@@ -7,7 +7,6 @@ const { ApolloServer, MockList } = require('apollo-server');
 
 const typeDefs = require('./schema');
 
-
 //In this testproject we use mock data. Mocks holds the type Track which in turn holds fields returning static hardcoded data
 const mocks = {
 
@@ -20,7 +19,7 @@ const mocks = {
         title: () => 'Astro Cat, Space Explorer',
         author: () => {
             return {
-                name: 'Grumpy Cat',
+                name: 'Neil Armstrong',
                 photo: 'https://res.cloudinary.com/dety84pbu/image/upload/v1606816219/kitty-veyron-sm_mctf3c.jpg',
             };
         },
@@ -36,7 +35,7 @@ const server = new ApolloServer({ typeDefs, mocks});
 
 server.listen().then(() => {
     console.log(`
-                Server is running...
-                Listening on port 4000
+                🚀 Server is running...
+                Listening on port 4000 at http://localhost:4000
                 `)
 })
