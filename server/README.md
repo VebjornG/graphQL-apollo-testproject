@@ -1,1 +1,1 @@
-# Catstronauts - server
+# Astronauts - server
